@@ -58,3 +58,7 @@ TARGET_SPECIFIC_HEADER_PATH := $(DEVICE_PATH)/include
 
 # Partitions
 BOARD_RECOVERYIMAGE_PARTITION_SIZE := 68149248
+
+# PBRP Flags
+PB_TORCH_PATH := "/sys/devices/virtual/camera/flash/rear_flash"
+PB_TORCH_MAX_BRIGHTNESS := 1
